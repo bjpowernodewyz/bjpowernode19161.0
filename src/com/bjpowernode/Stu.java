@@ -59,4 +59,13 @@ public class Stu {
     public void setAge(String age) {
         this.age = age;
     }
+
+    public Stu(String id, String name, String age, String addr, String master, String bran02) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.addr = addr;
+        this.master = master;
+        this.bran02 = bran02;
+    }
 }
