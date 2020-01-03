@@ -12,6 +12,30 @@ public class Stu {
     private String master;
     private String bran02;
 
+    public String getAddr() {
+        return addr;
+    }
+
+    public void setAddr(String addr) {
+        this.addr = addr;
+    }
+
+    public String getMaster() {
+        return master;
+    }
+
+    public void setMaster(String master) {
+        this.master = master;
+    }
+
+    public String getBran02() {
+        return bran02;
+    }
+
+    public void setBran02(String bran02) {
+        this.bran02 = bran02;
+    }
+
     public String getId() {
         return id;
     }
@@ -36,6 +60,7 @@ public class Stu {
         this.age = age;
     }
 
+
     @Override
     public String toString() {
         return "Stu{" +
@@ -46,5 +71,14 @@ public class Stu {
                 ", master='" + master + '\'' +
                 ", bran02='" + bran02 + '\'' +
                 '}';
+
+    public Stu(String id, String name, String age, String addr, String master, String bran02) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.addr = addr;
+        this.master = master;
+        this.bran02 = bran02;
+
     }
 }
