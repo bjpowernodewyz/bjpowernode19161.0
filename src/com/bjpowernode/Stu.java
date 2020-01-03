@@ -35,4 +35,16 @@ public class Stu {
     public void setAge(String age) {
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "Stu{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                ", addr='" + addr + '\'' +
+                ", master='" + master + '\'' +
+                ", bran02='" + bran02 + '\'' +
+                '}';
+    }
 }
