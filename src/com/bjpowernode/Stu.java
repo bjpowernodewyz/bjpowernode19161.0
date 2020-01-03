@@ -60,6 +60,18 @@ public class Stu {
         this.age = age;
     }
 
+
+    @Override
+    public String toString() {
+        return "Stu{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", age='" + age + '\'' +
+                ", addr='" + addr + '\'' +
+                ", master='" + master + '\'' +
+                ", bran02='" + bran02 + '\'' +
+                '}';
+
     public Stu(String id, String name, String age, String addr, String master, String bran02) {
         this.id = id;
         this.name = name;
@@ -67,5 +79,6 @@ public class Stu {
         this.addr = addr;
         this.master = master;
         this.bran02 = bran02;
+
     }
 }
