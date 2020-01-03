@@ -9,4 +9,5 @@ public class Stu {
     private String name;
     private String age;
     private String addr;
+    private String bran02;
 }
